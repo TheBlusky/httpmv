@@ -3,3 +3,4 @@ RUN mkdir /httpmv
 ADD . /httpmv
 WORKDIR /httpmv
 RUN pip install -r requirements.txt
+EXPOSE 8000
